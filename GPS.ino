@@ -3,7 +3,9 @@
 /* Create object named bt of the class SoftwareSerial */
 SoftwareSerial GPS_SoftSerial(4, 3);/* (Rx, Tx) */
 /* Create an object named gps of the class TinyGPSPlus */
-TinyGPSPlus gps;      
+TinyGPSPlus gps;   
+
+int var1; //temp variable
 
 volatile float minutes, seconds;
 volatile int degree, secs, mins;
