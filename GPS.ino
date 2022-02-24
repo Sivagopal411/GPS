@@ -5,7 +5,7 @@ SoftwareSerial GPS_SoftSerial(4, 3);/* (Rx, Tx) */
 /* Create an object named gps of the class TinyGPSPlus */
 TinyGPSPlus gps;   
 
-int var1; //temp variable
+//temp variable deleted
 
 volatile float minutes, seconds;
 volatile int degree, secs, mins;
